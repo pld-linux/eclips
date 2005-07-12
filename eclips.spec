@@ -1,4 +1,5 @@
 Summary:	EFL based image viewer
+Summary(pl):	Przegl±darka obrazków oparta na EFL
 Name:		eclips
 Version:	0.0.4
 %define	_snap	20050702
@@ -17,12 +18,23 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-eclips is an image viewr based on Ecore, Evas and Imlib2. It is designed to
-do one thing and one thing only; display refreshing slideshows or single
-images (webcams) while providing variable desktop translucency to blend
-easily into the background. Eclips is specialized in cool effects like
-fading in and out when changing images, keeping constant background
-transparency to provide three or more visual layers, and many more.
+eclips is an image viewer based on Ecore, Evas and Imlib2. It is
+designed to do one thing and one thing only: display refreshing
+slideshows or single images (webcams) while providing variable desktop
+translucency to blend easily into the background. Eclips is
+specialized in cool effects like fading in and out when changing
+images, keeping constant background transparency to provide three or
+more visual layers, and many more.
+
+%description -l pl
+eclips to przegl±darka obrazków oparta na bibliotekach Ecore, Evas i
+Imlib2. Zosta³a zaprojektowana do jednej rzeczy i tylko jednej rzeczy:
+wy¶wietlania od¶wie¿anych przegl±dów slajdów albo pojedynczych
+obrazków (kamer internetowych) udostêpniaj±c zmienn± przezroczysto¶æ
+pulpitu przechodz±c± w t³o. Eclips jest specjalizowany w fajnych
+efektach, takich jak przej¶cia przy zmianie obrazków, utrzymywanie
+sta³ej przezroczysto¶ci t³a dla zapewnienia trzech lub wiêcej
+widocznych warstw i wiele wiêcej.
 
 %prep
 %setup -q -n %{name}
