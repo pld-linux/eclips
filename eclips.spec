@@ -1,5 +1,5 @@
 Summary:	EFL based image viewer
-Summary(pl.UTF-8):   Przeglądarka obrazków oparta na EFL
+Summary(pl.UTF-8):	Przeglądarka obrazków oparta na EFL
 Name:		eclips
 Version:	0.0.4
 %define	_snap	20050702
